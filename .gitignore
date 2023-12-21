@@ -1,5 +1,5 @@
 .vscode
-/acllmdb
-my_env
 *.txt
 *.feat
+my_env
+!requirement.txt
