@@ -1,0 +1,5 @@
+.vscode
+/acllmdb
+my_env
+*.txt
+*.feat
