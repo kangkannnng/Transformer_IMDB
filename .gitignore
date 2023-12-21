@@ -1,5 +1,3 @@
 .vscode
-*.txt
-*.feat
 my_env
-!requirement.txt
+aclImdb/
