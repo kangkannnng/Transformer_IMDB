@@ -451,7 +451,7 @@ x = [(i + 1) for i in range(len(metric_values))]
 y = metric_values
 plt.xlabel("Iteration")
 plt.plot(x, y)
-plt.savefig('train.jpg')
+plt.savefig('single_train.jpg')
 plt.show()
 
 # 画出训练过程中的精确率、召回率和F1分数曲线
@@ -476,7 +476,7 @@ x = [(i + 1) for i in range(len(train_f1_values))]
 y = train_f1_values
 plt.xlabel("Epoch")
 plt.plot(x, y)
-plt.savefig('train_metrics.jpg')
+plt.savefig('single_train_metrics.jpg')
 plt.show()
 
 plt.figure("val_metrics", (18, 6))
@@ -500,7 +500,7 @@ x = [(i + 1) for i in range(len(val_f1_values))]
 y = val_f1_values
 plt.xlabel("Epoch")
 plt.plot(x, y)
-plt.savefig('val_metrics.jpg')
+plt.savefig('single_val_metrics.jpg')
 plt.show()
 
 
