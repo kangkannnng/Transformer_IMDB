@@ -88,9 +88,6 @@ class ImdbDataset(Dataset):
                     text = f.read().decode("utf-8").replace("\n", "").lower()
                     data.append(text)
                     labels.append(1 if label == "pos" else 0)
-        # 打乱数据
-        random.shuffle(data)
-        random.shuffle(labels)
         return data, labels
     
     # 返回评论的数量
@@ -446,7 +443,6 @@ y = metric_values
 plt.xlabel("Iteration")
 plt.plot(x, y)
 plt.savefig('multi_train.jpg')
-plt.show()
 
 # 画出训练过程中的精确率、召回率和F1分数曲线
 plt.figure("train_metrics", (18, 6))
@@ -471,7 +467,6 @@ y = train_f1_values
 plt.xlabel("Epoch")
 plt.plot(x, y)
 plt.savefig('multi_train_metrics.jpg')
-plt.show()
 
 plt.figure("val_metrics", (18, 6))
 plt.subplot(1, 3, 1)
@@ -495,8 +490,3 @@ y = val_f1_values
 plt.xlabel("Epoch")
 plt.plot(x, y)
 plt.savefig('multi_val_metrics.jpg')
-plt.show()
-
-
-
-
