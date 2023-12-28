@@ -1,0 +1,4 @@
+# multi
+Model Status: [200/200] | Train Acc: 0.99596 | Loss: 0.01201 | Train Precision: 0.99596 | Train Recall: 0.99596 | Train F1 Score: 0.99596 | Val Acc: 0.84576 | Loss: 2.25697 | Val Precision: 0.84773 | Val Recall: 0.84576 | Val F1 Score: 0.84554
+# single
+Model Status: [200/200] | Train Acc: 0.96860 | Loss: 0.08169 | Train Precision: 0.96860 | Train Recall: 0.96860 | Train F1 Score: 0.96860 | Val Acc: 0.81352 | Loss: 1.11208 | Val Precision: 0.82398 | Val Recall: 0.81352 | Val F1 Score: 0.81200
